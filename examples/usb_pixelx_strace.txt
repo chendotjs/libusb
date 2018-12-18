@@ -1,0 +1,2037 @@
+execve("./usb_pixelx", ["./usb_pixelx"], 0x7ffd4a92e3b0 /* 70 vars */) = 0
+brk(NULL)                               = 0x55a06b59a000
+arch_prctl(0x3001 /* ARCH_??? */, 0x7fff668bc300) = -1 EINVAL (Invalid argument)
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/chen/lab_projects/libusb/cmake-build-debug/libusb/tls/haswell/x86_64/libusb.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/chen/lab_projects/libusb/cmake-build-debug/libusb/tls/haswell/x86_64", 0x7fff668bb540) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/chen/lab_projects/libusb/cmake-build-debug/libusb/tls/haswell/libusb.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/chen/lab_projects/libusb/cmake-build-debug/libusb/tls/haswell", 0x7fff668bb540) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/chen/lab_projects/libusb/cmake-build-debug/libusb/tls/x86_64/libusb.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/chen/lab_projects/libusb/cmake-build-debug/libusb/tls/x86_64", 0x7fff668bb540) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/chen/lab_projects/libusb/cmake-build-debug/libusb/tls/libusb.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/chen/lab_projects/libusb/cmake-build-debug/libusb/tls", 0x7fff668bb540) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/chen/lab_projects/libusb/cmake-build-debug/libusb/haswell/x86_64/libusb.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/chen/lab_projects/libusb/cmake-build-debug/libusb/haswell/x86_64", 0x7fff668bb540) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/chen/lab_projects/libusb/cmake-build-debug/libusb/haswell/libusb.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/chen/lab_projects/libusb/cmake-build-debug/libusb/haswell", 0x7fff668bb540) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/chen/lab_projects/libusb/cmake-build-debug/libusb/x86_64/libusb.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/chen/lab_projects/libusb/cmake-build-debug/libusb/x86_64", 0x7fff668bb540) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/chen/lab_projects/libusb/cmake-build-debug/libusb/libusb.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200Y\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=290080, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb71e787000
+mmap(NULL, 129392, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fb71e767000
+mmap(0x7fb71e76c000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5000) = 0x7fb71e76c000
+mmap(0x7fb71e77d000, 32768, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7fb71e77d000
+mmap(0x7fb71e785000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1d000) = 0x7fb71e785000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/chen/lab_projects/libusb/cmake-build-debug/libusb/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=237334, ...}) = 0
+mmap(NULL, 237334, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fb71e72d000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \220\10\0\0\0\0\0"..., 832) = 832
+lseek(3, 1564608, SEEK_SET)             = 1564608
+read(3, "\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32) = 32
+fstat(3, {st_mode=S_IFREG|0755, st_size=14604792, ...}) = 0
+lseek(3, 1564608, SEEK_SET)             = 1564608
+read(3, "\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32) = 32
+mmap(NULL, 1631808, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fb71e59e000
+mprotect(0x7fb71e627000, 1007616, PROT_NONE) = 0
+mmap(0x7fb71e627000, 753664, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x89000) = 0x7fb71e627000
+mmap(0x7fb71e6df000, 249856, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x141000) = 0x7fb71e6df000
+mmap(0x7fb71e71d000, 53248, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17e000) = 0x7fb71e71d000
+mmap(0x7fb71e72a000, 9792, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fb71e72a000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/chen/lab_projects/libusb/cmake-build-debug/libusb/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \320\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1587104, ...}) = 0
+mmap(NULL, 1589272, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fb71e419000
+mmap(0x7fb71e426000, 659456, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xd000) = 0x7fb71e426000
+mmap(0x7fb71e4c7000, 872448, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xae000) = 0x7fb71e4c7000
+mmap(0x7fb71e59c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x182000) = 0x7fb71e59c000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/chen/lab_projects/libusb/cmake-build-debug/libusb/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 0\0\0\0\0\0\0"..., 832) = 832
+lseek(3, 93952, SEEK_SET)               = 93952
+read(3, "\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32) = 32
+fstat(3, {st_mode=S_IFREG|0644, st_size=867312, ...}) = 0
+lseek(3, 93952, SEEK_SET)               = 93952
+read(3, "\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32) = 32
+mmap(NULL, 103152, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fb71e3ff000
+mprotect(0x7fb71e402000, 86016, PROT_NONE) = 0
+mmap(0x7fb71e402000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fb71e402000
+mmap(0x7fb71e413000, 12288, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x14000) = 0x7fb71e413000
+mmap(0x7fb71e417000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7fb71e417000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/chen/lab_projects/libusb/cmake-build-debug/libusb/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000C\2\0\0\0\0\0"..., 832) = 832
+lseek(3, 792, SEEK_SET)                 = 792
+read(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\201\336\t\36\251c\324\233E\371SoK\5H\334"..., 68) = 68
+fstat(3, {st_mode=S_IFREG|0755, st_size=2136840, ...}) = 0
+lseek(3, 792, SEEK_SET)                 = 792
+read(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\201\336\t\36\251c\324\233E\371SoK\5H\334"..., 68) = 68
+lseek(3, 864, SEEK_SET)                 = 864
+read(3, "\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32) = 32
+mmap(NULL, 1848896, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fb71e23b000
+mprotect(0x7fb71e25d000, 1671168, PROT_NONE) = 0
+mmap(0x7fb71e25d000, 1355776, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x22000) = 0x7fb71e25d000
+mmap(0x7fb71e3a8000, 311296, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16d000) = 0x7fb71e3a8000
+mmap(0x7fb71e3f5000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b9000) = 0x7fb71e3f5000
+mmap(0x7fb71e3fb000, 13888, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fb71e3fb000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/chen/lab_projects/libusb/cmake-build-debug/libusb/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340f\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=155408, ...}) = 0
+lseek(3, 808, SEEK_SET)                 = 808
+read(3, "\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32) = 32
+mmap(NULL, 131528, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fb71e21a000
+mmap(0x7fb71e220000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7fb71e220000
+mmap(0x7fb71e22f000, 24576, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7fb71e22f000
+mmap(0x7fb71e235000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1a000) = 0x7fb71e235000
+mmap(0x7fb71e237000, 12744, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fb71e237000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/chen/lab_projects/libusb/cmake-build-debug/libusb/libudev.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/libudev.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 @\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=124888, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb71e218000
+mmap(NULL, 129288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fb71e1f8000
+mmap(0x7fb71e1fc000, 77824, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7fb71e1fc000
+mmap(0x7fb71e20f000, 28672, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7fb71e20f000
+mmap(0x7fb71e216000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1d000) = 0x7fb71e216000
+close(3)                                = 0
+mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb71e1f5000
+arch_prctl(ARCH_SET_FS, 0x7fb71e1f5740) = 0
+mprotect(0x7fb71e3f5000, 16384, PROT_READ) = 0
+mprotect(0x7fb71e235000, 4096, PROT_READ) = 0
+mprotect(0x7fb71e216000, 4096, PROT_READ) = 0
+mprotect(0x7fb71e417000, 4096, PROT_READ) = 0
+mprotect(0x7fb71e59c000, 4096, PROT_READ) = 0
+mprotect(0x7fb71e71d000, 49152, PROT_READ) = 0
+mprotect(0x7fb71e785000, 4096, PROT_READ) = 0
+mprotect(0x55a069a4c000, 4096, PROT_READ) = 0
+mprotect(0x7fb71e7b2000, 4096, PROT_READ) = 0
+munmap(0x7fb71e72d000, 237334)          = 0
+set_tid_address(0x7fb71e1f5a10)         = 11262
+set_robust_list(0x7fb71e1f5a20, 24)     = 0
+rt_sigaction(SIGRTMIN, {sa_handler=0x7fb71e220130, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7fb71e22c3c0}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {sa_handler=0x7fb71e2201d0, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART|SA_SIGINFO, sa_restorer=0x7fb71e22c3c0}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+brk(NULL)                               = 0x55a06b59a000
+brk(0x55a06b5bb000)                     = 0x55a06b5bb000
+futex(0x7fb71e72a69c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7fb71e72a6a8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+fstat(1, {st_mode=S_IFREG|0644, st_size=11277, ...}) = 0
+write(1, "List of USB devices:\n", 21List of USB devices:
+)  = 21
+openat(AT_FDCWD, "/dev/bus/usb", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=100, ...}) = 0
+getdents64(3, /* 5 entries */, 32768)   = 120
+close(3)                                = 0
+uname({sysname="Linux", nodename="chen-x1", ...}) = 0
+stat("/sys/bus/usb/devices", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+access("/run/udev/control", F_OK)       = 0
+socket(AF_NETLINK, SOCK_RAW|SOCK_CLOEXEC|SOCK_NONBLOCK, NETLINK_KOBJECT_UEVENT) = 3
+setsockopt(3, SOL_SOCKET, SO_ATTACH_FILTER, {len=10, filter=0x7fff668bb020}, 16) = 0
+bind(3, {sa_family=AF_NETLINK, nl_pid=0, nl_groups=0x000002}, 12) = 0
+getsockname(3, {sa_family=AF_NETLINK, nl_pid=11262, nl_groups=0x000002}, [12]) = 0
+setsockopt(3, SOL_SOCKET, SO_PASSCRED, [1], 4) = 0
+fcntl(3, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fcntl(3, F_GETFL)                       = 0x802 (flags O_RDWR|O_NONBLOCK)
+pipe2([4, 5], O_CLOEXEC)                = 0
+fcntl(5, F_GETFL)                       = 0x1 (flags O_WRONLY)
+fcntl(5, F_SETFL, O_WRONLY|O_NONBLOCK)  = 0
+mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fb71d9f4000
+mprotect(0x7fb71d9f5000, 8388608, PROT_READ|PROT_WRITE) = 0
+clone(child_stack=0x7fb71e1f3fb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fb71e1f49d0, tls=0x7fb71e1f4700, child_tidptr=0x7fb71e1f49d0) = 11263
+getpid()                                = 11262
+gettid()                                = 11262
+getrandom("\xc6\x8c\x1f\xb7\x1e\x65\xa9\x61\x87\x70\x4a\x00\x21\x95\xc9\xc7", 16, GRND_NONBLOCK) = 16
+access("/sys/subsystem", F_OK)          = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/sys/bus", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 6
+fstat(6, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+getdents64(6, /* 35 entries */, 32768)  = 968
+openat(AT_FDCWD, "/sys/bus/usb/devices/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 7
+fstat(7, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+brk(0x55a06b5df000)                     = 0x55a06b5df000
+getdents64(7, /* 24 entries */, 32768)  = 672
+openat(AT_FDCWD, "/", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+openat(8, "sys", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "bus", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "2-8:1.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+readlinkat(8, "2-8:1.0", "../../../devices/pci0000:00/0000"..., 99) = 57
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "pci0000:00", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "0000:00:14.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb2", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "2-8", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "2-8:1.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+close(9)                                = 0
+access("/sys/devices/pci0000:00/0000:00:14.0/usb2/2-8/2-8:1.0/uevent", F_OK) = 0
+openat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-8/2-8:1.0/uevent", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+read(8, "DEVTYPE=usb_interface\nDRIVER=uvc"..., 4096) = 147
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\x53\xf9\x58\xf4\x93\x7f\x05\x25\xd7\x82\xe3\x7d\x9a\xdb\x5b\x15", 16, GRND_NONBLOCK) = 16
+getrandom("\xe6\x5f\x7c\xe3\x9a\x75\xf8\x54\x67\x8a\x73\x10\x10\xd9\x14\x7b", 16, GRND_NONBLOCK) = 16
+readlinkat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-8/2-8:1.0/subsystem", "../../../../../../bus/usb", 99) = 25
+openat(AT_FDCWD, "/run/udev/data/+usb:2-8:1.0", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=184, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=184, ...}) = 0
+read(8, "I:2635132\nE:ID_USB_CLASS_FROM_DA"..., 4096) = 184
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\x30\x02\xfd\xef\x59\x11\xc7\x32\xf2\xba\x8b\xd9\x38\xaf\xfc\xb9", 16, GRND_NONBLOCK) = 16
+openat(AT_FDCWD, "/", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+openat(8, "sys", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "bus", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb3", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+readlinkat(8, "usb3", "../../../devices/pci0000:00/0000"..., 99) = 45
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "pci0000:00", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "0000:00:14.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb3", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+close(9)                                = 0
+access("/sys/devices/pci0000:00/0000:00:14.0/usb3/uevent", F_OK) = 0
+openat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb3/uevent", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+read(8, "MAJOR=189\nMINOR=256\nDEVNAME=bus/"..., 4096) = 126
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\x9d\xa9\xf7\x18\x47\xe7\x43\xa0\x82\xd2\xa9\xf1\xfc\xb9\x2b\x75", 16, GRND_NONBLOCK) = 16
+getrandom("\xbd\xff\xb4\x84\xcc\x2a\x53\xc9\xbf\x35\x61\x84\x8b\xd6\x9a\xba", 16, GRND_NONBLOCK) = 16
+readlinkat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb3/subsystem", "../../../../bus/usb", 99) = 19
+openat(AT_FDCWD, "/run/udev/data/c189:256", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=575, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=575, ...}) = 0
+read(8, "I:2591070\nE:ID_VENDOR=Linux_4.14"..., 4096) = 575
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\x0b\x61\x95\x02\x27\x37\x66\xf8\x49\x1c\xb1\x9a\x9e\x68\xa5\x56", 16, GRND_NONBLOCK) = 16
+openat(AT_FDCWD, "/", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+openat(8, "sys", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "bus", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "2-1", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+readlinkat(8, "2-1", "../../../devices/pci0000:00/0000"..., 99) = 49
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "pci0000:00", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "0000:00:14.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb2", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "2-1", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+close(8)                                = 0
+access("/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/uevent", F_OK) = 0
+openat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/uevent", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+read(8, "MAJOR=189\nMINOR=129\nDEVNAME=bus/"..., 4096) = 127
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\x74\x3f\x20\xeb\xf1\xc4\x96\x30\x81\x60\x58\x9a\xf3\x9e\x68\x39", 16, GRND_NONBLOCK) = 16
+getrandom("\x36\xbe\xbd\x3c\x60\x8a\x79\x44\xb7\x25\xfb\xd7\x8b\xe3\x92\x5d", 16, GRND_NONBLOCK) = 16
+readlinkat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/subsystem", "../../../../../bus/usb", 99) = 22
+openat(AT_FDCWD, "/run/udev/data/c189:129", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=263, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=263, ...}) = 0
+read(8, "I:2608875\nE:ID_VENDOR=TCXMASTER_"..., 4096) = 263
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\x58\x11\x22\x37\x8d\x48\xcf\x9c\xbc\xd0\xdf\x6f\x08\x95\x88\xcb", 16, GRND_NONBLOCK) = 16
+openat(AT_FDCWD, "/", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+openat(8, "sys", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "bus", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb1", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+readlinkat(8, "usb1", "../../../devices/pci0000:00/0000"..., 99) = 45
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "pci0000:00", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "0000:00:1d.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb1", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+close(9)                                = 0
+access("/sys/devices/pci0000:00/0000:00:1d.0/usb1/uevent", F_OK) = 0
+openat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:1d.0/usb1/uevent", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+read(8, "MAJOR=189\nMINOR=0\nDEVNAME=bus/us"..., 4096) = 124
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\xfa\xe5\xb9\xaa\x89\xd9\x92\xe5\x43\xc1\x1d\x7d\x80\xfd\x41\x30", 16, GRND_NONBLOCK) = 16
+getrandom("\x47\x56\x43\x2f\x0a\x4d\x9c\xba\x74\xcc\xf3\x42\x67\xb8\x2c\x4c", 16, GRND_NONBLOCK) = 16
+readlinkat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:1d.0/usb1/subsystem", "../../../../bus/usb", 99) = 19
+openat(AT_FDCWD, "/run/udev/data/c189:0", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=575, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=575, ...}) = 0
+read(8, "I:1644251\nE:ID_VENDOR=Linux_4.14"..., 4096) = 575
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\x0f\x79\xca\x30\x45\x5f\x6a\x1b\x90\x9f\x71\x9e\x9e\x92\x40\xce", 16, GRND_NONBLOCK) = 16
+openat(AT_FDCWD, "/", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+openat(8, "sys", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "bus", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "2-1:1.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+readlinkat(8, "2-1:1.0", "../../../devices/pci0000:00/0000"..., 99) = 57
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "pci0000:00", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "0000:00:14.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb2", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "2-1", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "2-1:1.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+close(9)                                = 0
+access("/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/uevent", F_OK) = 0
+openat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/uevent", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+read(8, "DEVTYPE=usb_interface\nPRODUCT=34"..., 4096) = 130
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\xf5\x53\xd9\x03\x80\x7d\x20\x94\x02\x8c\x2e\x31\xef\x5a\x59\x6d", 16, GRND_NONBLOCK) = 16
+readlinkat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/subsystem", "../../../../../../bus/usb", 99) = 25
+openat(AT_FDCWD, "/run/udev/data/+usb:2-1:1.0", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=25, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=25, ...}) = 0
+read(8, "I:2617339\nE:adb_user=yes\n", 4096) = 25
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\x52\x08\xd3\xd6\xe5\x7d\x48\xdf\x2f\x34\x89\xff\xe2\x94\xd5\xe7", 16, GRND_NONBLOCK) = 16
+openat(AT_FDCWD, "/", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+openat(8, "sys", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "bus", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "2-7:1.1", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+readlinkat(8, "2-7:1.1", "../../../devices/pci0000:00/0000"..., 99) = 57
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "pci0000:00", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "0000:00:14.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb2", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "2-7", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "2-7:1.1", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+close(9)                                = 0
+access("/sys/devices/pci0000:00/0000:00:14.0/usb2/2-7/2-7:1.1/uevent", F_OK) = 0
+openat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-7/2-7:1.1/uevent", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+read(8, "DEVTYPE=usb_interface\nDRIVER=btu"..., 4096) = 144
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\x3b\xbb\x34\x98\x84\x0c\xa2\x4d\x34\x5c\x81\x35\xe5\xc4\x9a\xf8", 16, GRND_NONBLOCK) = 16
+readlinkat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-7/2-7:1.1/subsystem", "../../../../../../bus/usb", 99) = 25
+openat(AT_FDCWD, "/run/udev/data/+usb:2-7:1.1", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=191, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=191, ...}) = 0
+read(8, "I:2608810\nE:ID_USB_CLASS_FROM_DA"..., 4096) = 191
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\x17\x89\x4b\xd2\xe7\x80\x70\x61\xfe\xa4\xfa\x6c\xa7\x63\x3c\x03", 16, GRND_NONBLOCK) = 16
+openat(AT_FDCWD, "/", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+openat(8, "sys", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "bus", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "3-0:1.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+readlinkat(8, "3-0:1.0", "../../../devices/pci0000:00/0000"..., 99) = 53
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "pci0000:00", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "0000:00:14.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb3", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "3-0:1.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+close(8)                                = 0
+access("/sys/devices/pci0000:00/0000:00:14.0/usb3/3-0:1.0/uevent", F_OK) = 0
+openat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb3/3-0:1.0/uevent", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+read(8, "DEVTYPE=usb_interface\nDRIVER=hub"..., 4096) = 138
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\xbf\xd1\xf4\xc4\xf4\x57\x93\xe6\xd5\x3c\x90\x20\x0e\x7e\x80\x1a", 16, GRND_NONBLOCK) = 16
+readlinkat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb3/3-0:1.0/subsystem", "../../../../../bus/usb", 99) = 22
+openat(AT_FDCWD, "/run/udev/data/+usb:3-0:1.0", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=139, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=139, ...}) = 0
+read(8, "I:2598766\nE:ID_USB_CLASS_FROM_DA"..., 4096) = 139
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\x6d\x2f\xb8\x9b\x32\x47\x3b\xbc\x69\xc0\xda\xdb\xd3\xc1\x83\xd5", 16, GRND_NONBLOCK) = 16
+openat(AT_FDCWD, "/", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+openat(8, "sys", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "bus", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "2-5:1.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+readlinkat(8, "2-5:1.0", "../../../devices/pci0000:00/0000"..., 99) = 57
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "pci0000:00", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "0000:00:14.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb2", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "2-5", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "2-5:1.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+close(9)                                = 0
+access("/sys/devices/pci0000:00/0000:00:14.0/usb2/2-5/2-5:1.0/uevent", F_OK) = 0
+openat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-5/2-5:1.0/uevent", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+read(8, "DEVTYPE=usb_interface\nDRIVER=usb"..., 4096) = 141
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\x91\x6e\xbe\x36\xfd\xbf\x74\x11\x9b\x77\x23\x1c\x9d\x68\x4a\x7c", 16, GRND_NONBLOCK) = 16
+readlinkat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-5/2-5:1.0/subsystem", "../../../../../../bus/usb", 99) = 25
+openat(AT_FDCWD, "/run/udev/data/+usb:2-5:1.0", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=79, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=79, ...}) = 0
+read(8, "I:2623891\nE:ID_VENDOR_FROM_DATAB"..., 4096) = 79
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\x8b\xde\x51\x2f\x2b\xca\x57\x37\x41\x23\xcf\xe8\xa3\x88\x98\x32", 16, GRND_NONBLOCK) = 16
+openat(AT_FDCWD, "/", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+openat(8, "sys", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "bus", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "2-8", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+readlinkat(8, "2-8", "../../../devices/pci0000:00/0000"..., 99) = 49
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "pci0000:00", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "0000:00:14.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb2", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "2-8", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+close(8)                                = 0
+access("/sys/devices/pci0000:00/0000:00:14.0/usb2/2-8/uevent", F_OK) = 0
+openat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-8/uevent", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+read(8, "MAJOR=189\nMINOR=134\nDEVNAME=bus/"..., 4096) = 129
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\x7f\x92\xc3\x4b\xac\x35\xff\x58\xbb\x17\x61\xa3\x77\x0f\xe0\xc2", 16, GRND_NONBLOCK) = 16
+getrandom("\x27\xc5\x60\x67\xb5\x76\xe0\xe8\xa3\xec\xfa\xa0\x09\x4a\x5a\x0c", 16, GRND_NONBLOCK) = 16
+readlinkat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-8/subsystem", "../../../../../bus/usb", 99) = 22
+openat(AT_FDCWD, "/run/udev/data/c189:134", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=423, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=423, ...}) = 0
+read(8, "I:2613927\nE:ID_VENDOR=Chicony_El"..., 4096) = 423
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\x20\xee\xb4\xb5\x28\xb2\x6a\x08\x1c\x4e\x27\x04\x15\xc0\x89\xad", 16, GRND_NONBLOCK) = 16
+openat(AT_FDCWD, "/", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+openat(8, "sys", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "bus", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "2-6", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+readlinkat(8, "2-6", "../../../devices/pci0000:00/0000"..., 99) = 49
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "pci0000:00", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "0000:00:14.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb2", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "2-6", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+close(8)                                = 0
+access("/sys/devices/pci0000:00/0000:00:14.0/usb2/2-6/uevent", F_OK) = 0
+openat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-6/uevent", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+read(8, "MAJOR=189\nMINOR=132\nDEVNAME=bus/"..., 4096) = 131
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\xc3\xda\xc5\xc0\x03\x31\x4a\x32\x6a\xc1\x5e\x5d\x04\x50\x47\x54", 16, GRND_NONBLOCK) = 16
+getrandom("\x4f\x6f\x9b\x84\x17\x24\xe7\x8b\x5c\x74\xea\x40\xb2\x32\x9e\xcf", 16, GRND_NONBLOCK) = 16
+readlinkat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-6/subsystem", "../../../../../bus/usb", 99) = 22
+openat(AT_FDCWD, "/run/udev/data/c189:132", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=352, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=352, ...}) = 0
+read(8, "I:2614605\nE:ID_VENDOR=138a\nE:ID_"..., 4096) = 352
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\x18\xc2\x27\x40\x1e\x0a\xc3\x3c\x3e\x9b\x4d\xc6\x7f\xa7\x9d\x6e", 16, GRND_NONBLOCK) = 16
+openat(AT_FDCWD, "/", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+openat(8, "sys", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "bus", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "2-2:1.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+readlinkat(8, "2-2:1.0", "../../../devices/pci0000:00/0000"..., 99) = 57
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "pci0000:00", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "0000:00:14.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb2", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "2-2", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "2-2:1.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+close(9)                                = 0
+access("/sys/devices/pci0000:00/0000:00:14.0/usb2/2-2/2-2:1.0/uevent", F_OK) = 0
+openat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-2/2-2:1.0/uevent", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+read(8, "DEVTYPE=usb_interface\nDRIVER=usb"..., 4096) = 142
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\x1e\x22\xb7\x24\x2e\x0f\x0d\x70\x29\x7d\x20\xf9\xfa\xdb\x95\x03", 16, GRND_NONBLOCK) = 16
+readlinkat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-2/2-2:1.0/subsystem", "../../../../../../bus/usb", 99) = 25
+openat(AT_FDCWD, "/run/udev/data/+usb:2-2:1.0", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=63, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=63, ...}) = 0
+read(8, "I:2557241\nE:ID_VENDOR_FROM_DATAB"..., 4096) = 63
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\xd1\x72\x7b\x32\xbe\xef\xf0\x32\x1b\x0e\x1c\x5a\xd8\x10\x38\x90", 16, GRND_NONBLOCK) = 16
+openat(AT_FDCWD, "/", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+openat(8, "sys", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "bus", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "2-8:1.1", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+readlinkat(8, "2-8:1.1", "../../../devices/pci0000:00/0000"..., 99) = 57
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "pci0000:00", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "0000:00:14.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb2", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "2-8", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "2-8:1.1", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+close(9)                                = 0
+access("/sys/devices/pci0000:00/0000:00:14.0/usb2/2-8/2-8:1.1/uevent", F_OK) = 0
+openat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-8/2-8:1.1/uevent", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+read(8, "DEVTYPE=usb_interface\nDRIVER=uvc"..., 4096) = 147
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\xd5\x9b\xe2\xbe\xd5\xb0\x2d\x51\xa9\xf2\x65\xbc\x76\x71\x82\xd8", 16, GRND_NONBLOCK) = 16
+readlinkat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-8/2-8:1.1/subsystem", "../../../../../../bus/usb", 99) = 25
+openat(AT_FDCWD, "/run/udev/data/+usb:2-8:1.1", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=184, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=184, ...}) = 0
+read(8, "I:2627805\nE:ID_USB_CLASS_FROM_DA"..., 4096) = 184
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\xc8\xba\xa1\xb7\x1a\x62\xa0\x88\xce\x4f\x53\x93\xc9\x92\xea\xda", 16, GRND_NONBLOCK) = 16
+openat(AT_FDCWD, "/", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+openat(8, "sys", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "bus", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "1-1", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+readlinkat(8, "1-1", "../../../devices/pci0000:00/0000"..., 99) = 49
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "pci0000:00", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "0000:00:1d.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb1", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "1-1", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+close(8)                                = 0
+access("/sys/devices/pci0000:00/0000:00:1d.0/usb1/1-1/uevent", F_OK) = 0
+openat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:1d.0/usb1/1-1/uevent", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+read(8, "MAJOR=189\nMINOR=1\nDEVNAME=bus/us"..., 4096) = 125
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\x8b\xae\xdd\x5b\xd4\x8f\x05\xe0\xbf\x4c\x52\x32\x44\x08\xa1\x9b", 16, GRND_NONBLOCK) = 16
+getrandom("\xa0\x6b\xe0\xf8\x56\x66\xd8\xb7\x54\x82\x4e\x1e\xfa\x32\x7b\x80", 16, GRND_NONBLOCK) = 16
+readlinkat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:1d.0/usb1/1-1/subsystem", "../../../../../bus/usb", 99) = 22
+openat(AT_FDCWD, "/run/udev/data/c189:1", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=368, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=368, ...}) = 0
+read(8, "I:1692472\nE:ID_VENDOR=8087\nE:ID_"..., 4096) = 368
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\xb0\xec\xf2\xc5\x63\x2e\xbb\xb5\xbf\x2a\x58\x63\x06\x09\xa0\x49", 16, GRND_NONBLOCK) = 16
+openat(AT_FDCWD, "/", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+openat(8, "sys", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "bus", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "2-6:1.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+readlinkat(8, "2-6:1.0", "../../../devices/pci0000:00/0000"..., 99) = 57
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "pci0000:00", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "0000:00:14.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb2", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "2-6", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "2-6:1.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+close(9)                                = 0
+access("/sys/devices/pci0000:00/0000:00:14.0/usb2/2-6/2-6:1.0/uevent", F_OK) = 0
+openat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-6/2-6:1.0/uevent", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+read(8, "DEVTYPE=usb_interface\nPRODUCT=13"..., 4096) = 134
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\x4e\xa8\x68\x7b\xef\x3d\x47\xf4\xb3\x2e\x4f\x8b\xe7\xf0\x03\xf0", 16, GRND_NONBLOCK) = 16
+readlinkat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-6/2-6:1.0/subsystem", "../../../../../../bus/usb", 99) = 25
+openat(AT_FDCWD, "/run/udev/data/+usb:2-6:1.0", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=178, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=178, ...}) = 0
+read(8, "I:2632304\nE:ID_USB_CLASS_FROM_DA"..., 4096) = 178
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\xcb\x1b\x54\x9d\x19\xf9\xc5\x64\xb8\x59\xc0\xc9\x73\xa6\x76\x73", 16, GRND_NONBLOCK) = 16
+openat(AT_FDCWD, "/", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+openat(8, "sys", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "bus", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "2-2", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+readlinkat(8, "2-2", "../../../devices/pci0000:00/0000"..., 99) = 49
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "pci0000:00", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "0000:00:14.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb2", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "2-2", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+close(8)                                = 0
+access("/sys/devices/pci0000:00/0000:00:14.0/usb2/2-2/uevent", F_OK) = 0
+openat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-2/uevent", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+read(8, "MAJOR=189\nMINOR=130\nDEVNAME=bus/"..., 4096) = 127
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\x46\x55\x60\x10\x55\xb1\xb3\xeb\x35\xa9\xb8\x25\xeb\x54\xc6\x05", 16, GRND_NONBLOCK) = 16
+getrandom("\x6e\x62\x31\x64\xe8\x01\xfa\x5c\x50\x2f\xf8\x63\x0d\x05\x55\x3a", 16, GRND_NONBLOCK) = 16
+readlinkat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-2/subsystem", "../../../../../bus/usb", 99) = 22
+openat(AT_FDCWD, "/run/udev/data/c189:130", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=277, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=277, ...}) = 0
+read(8, "I:2550189\nE:ID_VENDOR=SIGMACHIP\n"..., 4096) = 277
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\x4b\xf2\x8f\x9a\xdc\xbd\x91\x88\xee\x03\x49\x5d\xb6\xf6\x07\xb6", 16, GRND_NONBLOCK) = 16
+openat(AT_FDCWD, "/", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+openat(8, "sys", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "bus", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb2", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+readlinkat(8, "usb2", "../../../devices/pci0000:00/0000"..., 99) = 45
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "pci0000:00", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "0000:00:14.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb2", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+close(9)                                = 0
+access("/sys/devices/pci0000:00/0000:00:14.0/usb2/uevent", F_OK) = 0
+openat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb2/uevent", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+read(8, "MAJOR=189\nMINOR=128\nDEVNAME=bus/"..., 4096) = 126
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\x05\x6b\x5c\x65\x60\x96\xbb\x15\xb8\x3f\x00\x72\x2e\xdb\xe1\x85", 16, GRND_NONBLOCK) = 16
+getrandom("\xda\x5c\xbd\xd1\x17\xbc\xef\x12\x0f\x18\xa7\xa2\x29\xd2\xdd\xd2", 16, GRND_NONBLOCK) = 16
+readlinkat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb2/subsystem", "../../../../bus/usb", 99) = 19
+openat(AT_FDCWD, "/run/udev/data/c189:128", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=575, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=575, ...}) = 0
+read(8, "I:2590707\nE:ID_VENDOR=Linux_4.14"..., 4096) = 575
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\x1a\xec\x86\x71\xa4\xa0\xf8\x41\xde\xf9\x06\x1f\xc2\xf7\x2d\x1c", 16, GRND_NONBLOCK) = 16
+openat(AT_FDCWD, "/", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+openat(8, "sys", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "bus", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "1-0:1.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+readlinkat(8, "1-0:1.0", "../../../devices/pci0000:00/0000"..., 99) = 53
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "pci0000:00", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "0000:00:1d.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb1", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "1-0:1.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+close(8)                                = 0
+access("/sys/devices/pci0000:00/0000:00:1d.0/usb1/1-0:1.0/uevent", F_OK) = 0
+openat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:1d.0/usb1/1-0:1.0/uevent", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+read(8, "DEVTYPE=usb_interface\nDRIVER=hub"..., 4096) = 138
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\xd0\x27\xc6\x4f\xe7\x6d\x2c\x4e\xf9\xde\x38\x28\xba\x90\xc6\xc6", 16, GRND_NONBLOCK) = 16
+readlinkat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:1d.0/usb1/1-0:1.0/subsystem", "../../../../../bus/usb", 99) = 22
+openat(AT_FDCWD, "/run/udev/data/+usb:1-0:1.0", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=196, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=196, ...}) = 0
+read(8, "I:1690818\nE:ID_USB_CLASS_FROM_DA"..., 4096) = 196
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\x67\x6e\xba\xdd\x4f\xda\xae\x29\xde\x19\xe7\xa9\x40\x38\x37\xcc", 16, GRND_NONBLOCK) = 16
+openat(AT_FDCWD, "/", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+openat(8, "sys", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "bus", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "2-7:1.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+readlinkat(8, "2-7:1.0", "../../../devices/pci0000:00/0000"..., 99) = 57
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "pci0000:00", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "0000:00:14.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb2", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "2-7", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "2-7:1.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+close(9)                                = 0
+access("/sys/devices/pci0000:00/0000:00:14.0/usb2/2-7/2-7:1.0/uevent", F_OK) = 0
+openat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-7/2-7:1.0/uevent", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+read(8, "DEVTYPE=usb_interface\nDRIVER=btu"..., 4096) = 144
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\xe8\xc7\x6f\x15\x61\xc0\x82\x83\xfc\xa9\xaa\xf6\x43\xc2\x00\x7d", 16, GRND_NONBLOCK) = 16
+readlinkat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-7/2-7:1.0/subsystem", "../../../../../../bus/usb", 99) = 25
+openat(AT_FDCWD, "/run/udev/data/+usb:2-7:1.0", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=191, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=191, ...}) = 0
+read(8, "I:2610989\nE:ID_USB_CLASS_FROM_DA"..., 4096) = 191
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\x44\x7f\xe7\xf8\x9a\xde\x01\x95\xf5\xa5\x2a\x7a\x0b\xa6\xfe\x9b", 16, GRND_NONBLOCK) = 16
+openat(AT_FDCWD, "/", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+openat(8, "sys", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "bus", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "2-7", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+readlinkat(8, "2-7", "../../../devices/pci0000:00/0000"..., 99) = 49
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "pci0000:00", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "0000:00:14.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb2", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "2-7", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+close(8)                                = 0
+access("/sys/devices/pci0000:00/0000:00:14.0/usb2/2-7/uevent", F_OK) = 0
+openat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-7/uevent", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+read(8, "MAJOR=189\nMINOR=133\nDEVNAME=bus/"..., 4096) = 128
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\xb0\x96\xe5\x28\x1d\xda\x6c\xf1\xdc\x3c\xf3\x7c\x53\x0c\xe3\xad", 16, GRND_NONBLOCK) = 16
+getrandom("\x7f\x42\x55\x2e\x23\xcb\x5f\xbc\x31\xc2\x71\x3a\xe5\x35\x50\x23", 16, GRND_NONBLOCK) = 16
+readlinkat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-7/subsystem", "../../../../../bus/usb", 99) = 22
+openat(AT_FDCWD, "/run/udev/data/c189:133", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=244, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=244, ...}) = 0
+read(8, "I:2599609\nE:ID_VENDOR=8087\nE:ID_"..., 4096) = 244
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\xab\x3d\xec\x86\xad\x36\xc8\xf9\x4b\xd9\x19\xba\x96\x5b\xf2\xd1", 16, GRND_NONBLOCK) = 16
+openat(AT_FDCWD, "/", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+openat(8, "sys", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "bus", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "1-1:1.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+readlinkat(8, "1-1:1.0", "../../../devices/pci0000:00/0000"..., 99) = 57
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "pci0000:00", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "0000:00:1d.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb1", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "1-1", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "1-1:1.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+close(9)                                = 0
+access("/sys/devices/pci0000:00/0000:00:1d.0/usb1/1-1/1-1:1.0/uevent", F_OK) = 0
+openat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:1d.0/usb1/1-1/1-1:1.0/uevent", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+read(8, "DEVTYPE=usb_interface\nDRIVER=hub"..., 4096) = 139
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\xff\xa4\xe5\x51\x1f\xd7\xc6\x89\xae\xaa\xb2\x2e\x60\x2a\xc7\x78", 16, GRND_NONBLOCK) = 16
+readlinkat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:1d.0/usb1/1-1/1-1:1.0/subsystem", "../../../../../../bus/usb", 99) = 25
+openat(AT_FDCWD, "/run/udev/data/+usb:1-1:1.0", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=138, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=138, ...}) = 0
+read(8, "I:1711251\nE:ID_USB_CLASS_FROM_DA"..., 4096) = 138
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\xaa\x04\x65\x72\x89\x55\x5d\xcf\xd7\x40\x48\xe0\x90\x5b\xd5\x19", 16, GRND_NONBLOCK) = 16
+openat(AT_FDCWD, "/", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+openat(8, "sys", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "bus", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "2-0:1.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+readlinkat(8, "2-0:1.0", "../../../devices/pci0000:00/0000"..., 99) = 53
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "pci0000:00", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "0000:00:14.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb2", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "2-0:1.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+close(8)                                = 0
+access("/sys/devices/pci0000:00/0000:00:14.0/usb2/2-0:1.0/uevent", F_OK) = 0
+openat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-0:1.0/uevent", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+read(8, "DEVTYPE=usb_interface\nDRIVER=hub"..., 4096) = 138
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\x5c\x1e\x3b\x25\x1f\x13\x0b\xad\x6d\x4f\xd5\xa8\x85\x94\xe0\xc0", 16, GRND_NONBLOCK) = 16
+readlinkat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-0:1.0/subsystem", "../../../../../bus/usb", 99) = 22
+openat(AT_FDCWD, "/run/udev/data/+usb:2-0:1.0", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=181, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=181, ...}) = 0
+read(8, "I:2597167\nE:ID_USB_CLASS_FROM_DA"..., 4096) = 181
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\x72\x33\x50\x63\xf4\xaf\x05\xae\x54\x29\x6d\xbb\x09\xe7\xc1\x2a", 16, GRND_NONBLOCK) = 16
+openat(AT_FDCWD, "/", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+openat(8, "sys", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "bus", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "2-5", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+readlinkat(8, "2-5", "../../../devices/pci0000:00/0000"..., 99) = 49
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+close(9)                                = 0
+openat(8, "..", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+close(8)                                = 0
+openat(9, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "pci0000:00", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "0000:00:14.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+openat(8, "usb2", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 9
+fstat(9, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(8)                                = 0
+openat(9, "2-5", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 8
+fstat(8, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(9)                                = 0
+close(8)                                = 0
+access("/sys/devices/pci0000:00/0000:00:14.0/usb2/2-5/uevent", F_OK) = 0
+openat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-5/uevent", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+read(8, "MAJOR=189\nMINOR=131\nDEVNAME=bus/"..., 4096) = 126
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\x80\x73\x50\x01\x1e\x8c\xff\x09\x2d\x80\x2e\xda\x3a\xc7\xc2\x38", 16, GRND_NONBLOCK) = 16
+getrandom("\x47\xe1\xab\x5b\xba\x23\x61\x4b\x40\x19\x5a\x78\xa5\x6e\xef\x93", 16, GRND_NONBLOCK) = 16
+readlinkat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-5/subsystem", "../../../../../bus/usb", 99) = 22
+openat(AT_FDCWD, "/run/udev/data/c189:131", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=281, ...}) = 0
+fstat(8, {st_mode=S_IFREG|0644, st_size=281, ...}) = 0
+read(8, "I:2608259\nE:ID_VENDOR=ELAN\nE:ID_"..., 4096) = 281
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+getrandom("\x6c\x1e\xca\x61\x3d\x8b\x0d\x47\x9a\x59\xf2\x21\xdb\xc5\x5c\x7a", 16, GRND_NONBLOCK) = 16
+getdents64(7, /* 0 entries */, 32768)   = 0
+close(7)                                = 0
+getdents64(6, /* 0 entries */, 32768)   = 0
+close(6)                                = 0
+openat(AT_FDCWD, "/sys/class", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 6
+fstat(6, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+getdents64(6, /* 57 entries */, 32768)  = 1656
+getdents64(6, /* 0 entries */, 32768)   = 0
+close(6)                                = 0
+openat(AT_FDCWD, "/", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 6
+openat(6, "sys", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 7
+fstat(7, {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+close(6)                                = 0
+openat(7, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 6
+fstat(6, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(7)                                = 0
+openat(6, "pci0000:00", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 7
+fstat(7, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(6)                                = 0
+openat(7, "0000:00:14.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 6
+fstat(6, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(7)                                = 0
+openat(6, "usb2", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 7
+fstat(7, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(6)                                = 0
+close(7)                                = 0
+access("/sys/devices/pci0000:00/0000:00:14.0/usb2/uevent", F_OK) = 0
+openat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb2/uevent", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+fstat(6, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+read(6, "MAJOR=189\nMINOR=128\nDEVNAME=bus/"..., 4096) = 126
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+getrandom("\x8f\xd2\xc2\xae\x12\x53\xca\xb5\xdc\x0e\x2c\x99\x61\x4a\x83\xc5", 16, GRND_NONBLOCK) = 16
+getrandom("\x59\xbb\x49\xff\x5d\xb2\xab\x4b\x69\x27\x14\xb9\x00\xb9\xb5\x32", 16, GRND_NONBLOCK) = 16
+openat(AT_FDCWD, "/sys/bus/usb/devices/usb2/busnum", O_RDONLY|O_CLOEXEC) = 6
+fcntl(6, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+fstat(6, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+read(6, "2\n", 4096)                    = 2
+close(6)                                = 0
+openat(AT_FDCWD, "/sys/bus/usb/devices/usb2/devnum", O_RDONLY|O_CLOEXEC) = 6
+fcntl(6, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+fstat(6, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+read(6, "1\n", 4096)                    = 2
+close(6)                                = 0
+openat(AT_FDCWD, "/sys/bus/usb/devices/usb2/speed", O_RDONLY|O_CLOEXEC) = 6
+fcntl(6, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+fstat(6, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+read(6, "480\n", 4096)                  = 4
+close(6)                                = 0
+openat(AT_FDCWD, "/sys/bus/usb/devices/usb2/descriptors", O_RDONLY|O_CLOEXEC) = 6
+read(6, "\22\1\0\2\t\0\1@k\35\2\0\24\4\3\2\1\1\t\2\31\0\1\1\0\340\0\t\4\0\0\1"..., 1024) = 43
+close(6)                                = 0
+openat(AT_FDCWD, "/", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 6
+openat(6, "sys", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 7
+fstat(7, {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+close(6)                                = 0
+openat(7, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 6
+fstat(6, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(7)                                = 0
+openat(6, "pci0000:00", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 7
+fstat(7, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(6)                                = 0
+openat(7, "0000:00:14.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 6
+fstat(6, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(7)                                = 0
+openat(6, "usb2", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 7
+fstat(7, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(6)                                = 0
+openat(7, "2-1", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 6
+fstat(6, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(7)                                = 0
+close(6)                                = 0
+access("/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/uevent", F_OK) = 0
+openat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/uevent", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+fstat(6, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+read(6, "MAJOR=189\nMINOR=129\nDEVNAME=bus/"..., 4096) = 127
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+getrandom("\xd7\xcd\xa6\x98\x50\x4c\xd8\x17\x41\xfb\x18\x3c\xbb\xc0\x8b\x97", 16, GRND_NONBLOCK) = 16
+getrandom("\xaa\xca\x06\x2b\x5e\xcd\xdc\x08\x21\xa3\xc0\x7c\xa4\x34\x39\xba", 16, GRND_NONBLOCK) = 16
+openat(AT_FDCWD, "/sys/bus/usb/devices/2-1/busnum", O_RDONLY|O_CLOEXEC) = 6
+fcntl(6, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+fstat(6, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+read(6, "2\n", 4096)                    = 2
+close(6)                                = 0
+openat(AT_FDCWD, "/sys/bus/usb/devices/2-1/devnum", O_RDONLY|O_CLOEXEC) = 6
+fcntl(6, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+fstat(6, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+read(6, "2\n", 4096)                    = 2
+close(6)                                = 0
+openat(AT_FDCWD, "/sys/bus/usb/devices/2-1/speed", O_RDONLY|O_CLOEXEC) = 6
+fcntl(6, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+fstat(6, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+read(6, "480\n", 4096)                  = 4
+close(6)                                = 0
+openat(AT_FDCWD, "/sys/bus/usb/devices/2-1/descriptors", O_RDONLY|O_CLOEXEC) = 6
+read(6, "\22\1\0\2\0\0\0@\0224Vx\0\0\1\2\0\1\t\2.\0\1\1\0\240\372\t\4\0\0\4"..., 1024) = 64
+close(6)                                = 0
+openat(AT_FDCWD, "/", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 6
+openat(6, "sys", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 7
+fstat(7, {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+close(6)                                = 0
+openat(7, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 6
+fstat(6, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(7)                                = 0
+openat(6, "pci0000:00", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 7
+fstat(7, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(6)                                = 0
+openat(7, "0000:00:14.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 6
+fstat(6, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(7)                                = 0
+openat(6, "usb2", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 7
+fstat(7, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(6)                                = 0
+openat(7, "2-2", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 6
+fstat(6, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(7)                                = 0
+close(6)                                = 0
+access("/sys/devices/pci0000:00/0000:00:14.0/usb2/2-2/uevent", F_OK) = 0
+openat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-2/uevent", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+fstat(6, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+read(6, "MAJOR=189\nMINOR=130\nDEVNAME=bus/"..., 4096) = 127
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+getrandom("\x8c\x3b\x47\xec\xb1\x3e\x6f\xd2\xc9\x58\x1d\xa7\x00\xae\x68\xae", 16, GRND_NONBLOCK) = 16
+getrandom("\x1b\x40\x3b\xd6\x72\x77\xff\x4a\xe8\xc2\xd2\x45\xa2\x5a\xb2\x0d", 16, GRND_NONBLOCK) = 16
+openat(AT_FDCWD, "/sys/bus/usb/devices/2-2/busnum", O_RDONLY|O_CLOEXEC) = 6
+fcntl(6, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+fstat(6, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+read(6, "2\n", 4096)                    = 2
+close(6)                                = 0
+openat(AT_FDCWD, "/sys/bus/usb/devices/2-2/devnum", O_RDONLY|O_CLOEXEC) = 6
+fcntl(6, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+fstat(6, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+read(6, "3\n", 4096)                    = 2
+close(6)                                = 0
+openat(AT_FDCWD, "/sys/bus/usb/devices/2-2/speed", O_RDONLY|O_CLOEXEC) = 6
+fcntl(6, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+fstat(6, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+read(6, "1.5\n", 4096)                  = 4
+close(6)                                = 0
+openat(AT_FDCWD, "/sys/bus/usb/devices/2-2/descriptors", O_RDONLY|O_CLOEXEC) = 6
+read(6, "\22\1\20\1\0\0\0\10O\0344\0\20\1\1\2\0\1\t\2\"\0\1\1\0\2401\t\4\0\0\1"..., 1024) = 52
+close(6)                                = 0
+openat(AT_FDCWD, "/", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 6
+openat(6, "sys", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 7
+fstat(7, {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+close(6)                                = 0
+openat(7, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 6
+fstat(6, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(7)                                = 0
+openat(6, "pci0000:00", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 7
+fstat(7, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(6)                                = 0
+openat(7, "0000:00:14.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 6
+fstat(6, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(7)                                = 0
+openat(6, "usb2", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 7
+fstat(7, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(6)                                = 0
+openat(7, "2-5", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 6
+fstat(6, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(7)                                = 0
+close(6)                                = 0
+access("/sys/devices/pci0000:00/0000:00:14.0/usb2/2-5/uevent", F_OK) = 0
+openat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-5/uevent", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+fstat(6, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+read(6, "MAJOR=189\nMINOR=131\nDEVNAME=bus/"..., 4096) = 126
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+getrandom("\xac\x19\x7f\xe7\xc1\xb1\x3d\xd5\x5e\x7b\xd9\xb1\x1d\x7c\x82\xc0", 16, GRND_NONBLOCK) = 16
+getrandom("\x25\x2f\xdf\x9c\x5f\xa0\x0e\x46\x56\xa0\xec\xb7\xed\x04\xfd\xca", 16, GRND_NONBLOCK) = 16
+openat(AT_FDCWD, "/sys/bus/usb/devices/2-5/busnum", O_RDONLY|O_CLOEXEC) = 6
+fcntl(6, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+fstat(6, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+read(6, "2\n", 4096)                    = 2
+close(6)                                = 0
+openat(AT_FDCWD, "/sys/bus/usb/devices/2-5/devnum", O_RDONLY|O_CLOEXEC) = 6
+fcntl(6, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+fstat(6, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+read(6, "4\n", 4096)                    = 2
+close(6)                                = 0
+openat(AT_FDCWD, "/sys/bus/usb/devices/2-5/speed", O_RDONLY|O_CLOEXEC) = 6
+fcntl(6, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+fstat(6, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+read(6, "12\n", 4096)                   = 3
+close(6)                                = 0
+openat(AT_FDCWD, "/sys/bus/usb/devices/2-5/descriptors", O_RDONLY|O_CLOEXEC) = 6
+read(6, "\22\1\0\2\0\0\0\10\363\4-\1\23\0\4\16\0\1\t\2)\0\1\1\0\3402\t\4\0\0\2"..., 1024) = 59
+close(6)                                = 0
+openat(AT_FDCWD, "/", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 6
+openat(6, "sys", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 7
+fstat(7, {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+close(6)                                = 0
+openat(7, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 6
+fstat(6, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(7)                                = 0
+openat(6, "pci0000:00", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 7
+fstat(7, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(6)                                = 0
+openat(7, "0000:00:14.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 6
+fstat(6, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(7)                                = 0
+openat(6, "usb2", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 7
+fstat(7, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(6)                                = 0
+openat(7, "2-6", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 6
+fstat(6, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(7)                                = 0
+close(6)                                = 0
+access("/sys/devices/pci0000:00/0000:00:14.0/usb2/2-6/uevent", F_OK) = 0
+openat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-6/uevent", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+fstat(6, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+read(6, "MAJOR=189\nMINOR=132\nDEVNAME=bus/"..., 4096) = 131
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+getrandom("\x12\x3d\x0d\x05\xb9\x12\x99\x6d\x81\x30\xa3\x95\x5b\x69\x6c\xad", 16, GRND_NONBLOCK) = 16
+getrandom("\x02\xf1\x9c\xac\xe5\x33\x2f\x60\xe7\xc6\x63\x22\xa9\x45\x20\x1a", 16, GRND_NONBLOCK) = 16
+openat(AT_FDCWD, "/sys/bus/usb/devices/2-6/busnum", O_RDONLY|O_CLOEXEC) = 6
+fcntl(6, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+fstat(6, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+read(6, "2\n", 4096)                    = 2
+close(6)                                = 0
+openat(AT_FDCWD, "/sys/bus/usb/devices/2-6/devnum", O_RDONLY|O_CLOEXEC) = 6
+fcntl(6, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+fstat(6, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+read(6, "5\n", 4096)                    = 2
+close(6)                                = 0
+openat(AT_FDCWD, "/sys/bus/usb/devices/2-6/speed", O_RDONLY|O_CLOEXEC) = 6
+fcntl(6, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+fstat(6, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+read(6, "12\n", 4096)                   = 3
+close(6)                                = 0
+openat(AT_FDCWD, "/sys/bus/usb/devices/2-6/descriptors", O_RDONLY|O_CLOEXEC) = 6
+read(6, "\22\1\20\1\377\21\377\10\212\23\27\0x\0\0\0\1\1\t\2.\0\1\1\0\2402\t\4\0\0\4"..., 1024) = 64
+close(6)                                = 0
+openat(AT_FDCWD, "/", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 6
+openat(6, "sys", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 7
+fstat(7, {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+close(6)                                = 0
+openat(7, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 6
+fstat(6, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(7)                                = 0
+openat(6, "pci0000:00", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 7
+fstat(7, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(6)                                = 0
+openat(7, "0000:00:14.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 6
+fstat(6, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(7)                                = 0
+openat(6, "usb2", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 7
+fstat(7, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(6)                                = 0
+openat(7, "2-7", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 6
+fstat(6, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(7)                                = 0
+close(6)                                = 0
+access("/sys/devices/pci0000:00/0000:00:14.0/usb2/2-7/uevent", F_OK) = 0
+openat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-7/uevent", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+fstat(6, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+read(6, "MAJOR=189\nMINOR=133\nDEVNAME=bus/"..., 4096) = 128
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+getrandom("\x20\x55\x8f\x3d\xde\x13\x90\x04\x98\x01\x69\xbe\x91\x69\x04\xf9", 16, GRND_NONBLOCK) = 16
+getrandom("\x37\xff\x98\xcf\xf1\xc9\x28\xa2\x4a\xd8\xcf\x22\x70\x72\x01\x13", 16, GRND_NONBLOCK) = 16
+openat(AT_FDCWD, "/sys/bus/usb/devices/2-7/busnum", O_RDONLY|O_CLOEXEC) = 6
+fcntl(6, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+fstat(6, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+read(6, "2\n", 4096)                    = 2
+close(6)                                = 0
+openat(AT_FDCWD, "/sys/bus/usb/devices/2-7/devnum", O_RDONLY|O_CLOEXEC) = 6
+fcntl(6, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+fstat(6, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+read(6, "6\n", 4096)                    = 2
+close(6)                                = 0
+openat(AT_FDCWD, "/sys/bus/usb/devices/2-7/speed", O_RDONLY|O_CLOEXEC) = 6
+fcntl(6, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+fstat(6, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+read(6, "12\n", 4096)                   = 3
+close(6)                                = 0
+openat(AT_FDCWD, "/sys/bus/usb/devices/2-7/descriptors", O_RDONLY|O_CLOEXEC) = 6
+read(6, "\22\1\1\2\340\1\1@\207\200*\n\1\0\0\0\0\1\t\2\261\0\2\1\0\3402\t\4\0\0\3"..., 1024) = 195
+close(6)                                = 0
+openat(AT_FDCWD, "/", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 6
+openat(6, "sys", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 7
+fstat(7, {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+close(6)                                = 0
+openat(7, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 6
+fstat(6, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(7)                                = 0
+openat(6, "pci0000:00", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 7
+fstat(7, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(6)                                = 0
+openat(7, "0000:00:14.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 6
+fstat(6, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(7)                                = 0
+openat(6, "usb2", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 7
+fstat(7, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(6)                                = 0
+openat(7, "2-8", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 6
+fstat(6, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(7)                                = 0
+close(6)                                = 0
+access("/sys/devices/pci0000:00/0000:00:14.0/usb2/2-8/uevent", F_OK) = 0
+openat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb2/2-8/uevent", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+fstat(6, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+read(6, "MAJOR=189\nMINOR=134\nDEVNAME=bus/"..., 4096) = 129
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+getrandom("\x3e\xe6\xad\x8f\xd5\xdf\xf9\x82\x90\x05\x88\x5a\xf3\x91\x13\xc5", 16, GRND_NONBLOCK) = 16
+getrandom("\xe2\x56\xd4\x1e\x07\x95\xf7\xe2\x78\xf3\xe0\xe6\xda\xe0\x79\x91", 16, GRND_NONBLOCK) = 16
+openat(AT_FDCWD, "/sys/bus/usb/devices/2-8/busnum", O_RDONLY|O_CLOEXEC) = 6
+fcntl(6, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+fstat(6, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+read(6, "2\n", 4096)                    = 2
+close(6)                                = 0
+openat(AT_FDCWD, "/sys/bus/usb/devices/2-8/devnum", O_RDONLY|O_CLOEXEC) = 6
+fcntl(6, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+fstat(6, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+read(6, "7\n", 4096)                    = 2
+close(6)                                = 0
+openat(AT_FDCWD, "/sys/bus/usb/devices/2-8/speed", O_RDONLY|O_CLOEXEC) = 6
+fcntl(6, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+fstat(6, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+read(6, "480\n", 4096)                  = 4
+close(6)                                = 0
+openat(AT_FDCWD, "/sys/bus/usb/devices/2-8/descriptors", O_RDONLY|O_CLOEXEC) = 6
+read(6, "\22\1\0\2\357\2\1@\362\4]\264)\0\3\1\2\1\t\2\236\3\2\1\4\200\372\10\v\0\2\16"..., 1024) = 944
+close(6)                                = 0
+openat(AT_FDCWD, "/", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 6
+openat(6, "sys", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 7
+fstat(7, {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+close(6)                                = 0
+openat(7, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 6
+fstat(6, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(7)                                = 0
+openat(6, "pci0000:00", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 7
+fstat(7, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(6)                                = 0
+openat(7, "0000:00:14.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 6
+fstat(6, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(7)                                = 0
+openat(6, "usb3", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 7
+fstat(7, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(6)                                = 0
+close(7)                                = 0
+access("/sys/devices/pci0000:00/0000:00:14.0/usb3/uevent", F_OK) = 0
+openat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:14.0/usb3/uevent", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+fstat(6, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+read(6, "MAJOR=189\nMINOR=256\nDEVNAME=bus/"..., 4096) = 126
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+getrandom("\x5a\xf2\xa0\xbe\xb7\xc6\x9a\x57\x4f\x32\xc6\xd8\xa7\x24\xe7\xdd", 16, GRND_NONBLOCK) = 16
+getrandom("\x2b\x05\x9b\xf9\xda\x2d\x22\x79\xbe\xec\x4e\x95\xe9\x68\x8d\x29", 16, GRND_NONBLOCK) = 16
+openat(AT_FDCWD, "/sys/bus/usb/devices/usb3/busnum", O_RDONLY|O_CLOEXEC) = 6
+fcntl(6, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+fstat(6, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+read(6, "3\n", 4096)                    = 2
+close(6)                                = 0
+openat(AT_FDCWD, "/sys/bus/usb/devices/usb3/devnum", O_RDONLY|O_CLOEXEC) = 6
+fcntl(6, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+fstat(6, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+read(6, "1\n", 4096)                    = 2
+close(6)                                = 0
+openat(AT_FDCWD, "/sys/bus/usb/devices/usb3/speed", O_RDONLY|O_CLOEXEC) = 6
+fcntl(6, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+fstat(6, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+read(6, "5000\n", 4096)                 = 5
+close(6)                                = 0
+openat(AT_FDCWD, "/sys/bus/usb/devices/usb3/descriptors", O_RDONLY|O_CLOEXEC) = 6
+read(6, "\22\1\0\3\t\0\3\tk\35\3\0\24\4\3\2\1\1\t\2\37\0\1\1\0\340\0\t\4\0\0\1"..., 1024) = 49
+close(6)                                = 0
+openat(AT_FDCWD, "/", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 6
+openat(6, "sys", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 7
+fstat(7, {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+close(6)                                = 0
+openat(7, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 6
+fstat(6, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(7)                                = 0
+openat(6, "pci0000:00", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 7
+fstat(7, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(6)                                = 0
+openat(7, "0000:00:1d.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 6
+fstat(6, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(7)                                = 0
+openat(6, "usb1", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 7
+fstat(7, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(6)                                = 0
+close(7)                                = 0
+access("/sys/devices/pci0000:00/0000:00:1d.0/usb1/uevent", F_OK) = 0
+openat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:1d.0/usb1/uevent", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+fstat(6, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+read(6, "MAJOR=189\nMINOR=0\nDEVNAME=bus/us"..., 4096) = 124
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+getrandom("\x00\x1f\xa5\x1a\xda\x6c\x41\xdf\x1d\x65\xd2\xf3\x1d\x28\x92\x3c", 16, GRND_NONBLOCK) = 16
+getrandom("\x7f\x7f\x03\xe7\x79\xd3\x8f\x60\xe7\x64\x61\x8f\xea\xe6\xdb\x6d", 16, GRND_NONBLOCK) = 16
+openat(AT_FDCWD, "/sys/bus/usb/devices/usb1/busnum", O_RDONLY|O_CLOEXEC) = 6
+fcntl(6, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+fstat(6, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+read(6, "1\n", 4096)                    = 2
+close(6)                                = 0
+openat(AT_FDCWD, "/sys/bus/usb/devices/usb1/devnum", O_RDONLY|O_CLOEXEC) = 6
+fcntl(6, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+fstat(6, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+read(6, "1\n", 4096)                    = 2
+close(6)                                = 0
+openat(AT_FDCWD, "/sys/bus/usb/devices/usb1/speed", O_RDONLY|O_CLOEXEC) = 6
+fcntl(6, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+fstat(6, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+read(6, "480\n", 4096)                  = 4
+close(6)                                = 0
+openat(AT_FDCWD, "/sys/bus/usb/devices/usb1/descriptors", O_RDONLY|O_CLOEXEC) = 6
+read(6, "\22\1\0\2\t\0\0@k\35\2\0\24\4\3\2\1\1\t\2\31\0\1\1\0\340\0\t\4\0\0\1"..., 1024) = 43
+close(6)                                = 0
+openat(AT_FDCWD, "/", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 6
+openat(6, "sys", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 7
+fstat(7, {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+close(6)                                = 0
+openat(7, "devices", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 6
+fstat(6, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(7)                                = 0
+openat(6, "pci0000:00", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 7
+fstat(7, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(6)                                = 0
+openat(7, "0000:00:1d.0", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 6
+fstat(6, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(7)                                = 0
+openat(6, "usb1", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 7
+fstat(7, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(6)                                = 0
+openat(7, "1-1", O_RDONLY|O_NOFOLLOW|O_CLOEXEC|O_PATH) = 6
+fstat(6, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+close(7)                                = 0
+close(6)                                = 0
+access("/sys/devices/pci0000:00/0000:00:1d.0/usb1/1-1/uevent", F_OK) = 0
+openat(AT_FDCWD, "/sys/devices/pci0000:00/0000:00:1d.0/usb1/1-1/uevent", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+fstat(6, {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+read(6, "MAJOR=189\nMINOR=1\nDEVNAME=bus/us"..., 4096) = 125
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+getrandom("\x19\xd4\x81\x42\x47\xea\xef\x39\x2a\x63\xf3\x99\x22\x2b\x6e\x7b", 16, GRND_NONBLOCK) = 16
+getrandom("\x99\x95\x8a\xdb\x72\xb2\x01\xdb\x96\xbf\x9f\xec\xc3\x43\xdc\x5a", 16, GRND_NONBLOCK) = 16
+openat(AT_FDCWD, "/sys/bus/usb/devices/1-1/busnum", O_RDONLY|O_CLOEXEC) = 6
+fcntl(6, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+fstat(6, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+read(6, "1\n", 4096)                    = 2
+close(6)                                = 0
+openat(AT_FDCWD, "/sys/bus/usb/devices/1-1/devnum", O_RDONLY|O_CLOEXEC) = 6
+fcntl(6, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+fstat(6, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+read(6, "2\n", 4096)                    = 2
+close(6)                                = 0
+openat(AT_FDCWD, "/sys/bus/usb/devices/1-1/speed", O_RDONLY|O_CLOEXEC) = 6
+fcntl(6, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+fstat(6, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+read(6, "480\n", 4096)                  = 4
+close(6)                                = 0
+openat(AT_FDCWD, "/sys/bus/usb/devices/1-1/descriptors", O_RDONLY|O_CLOEXEC) = 6
+read(6, "\22\1\0\2\t\0\1@\207\200\1\200\3\0\0\0\0\1\t\2\31\0\1\1\0\340\0\t\4\0\0\1"..., 1024) = 43
+close(6)                                = 0
+pipe2([6, 7], O_CLOEXEC)                = 0
+fcntl(7, F_GETFL)                       = 0x1 (flags O_WRONLY)
+fcntl(7, F_SETFL, O_WRONLY|O_NONBLOCK)  = 0
+write(7, "\1", 1)                       = 1
+timerfd_create(CLOCK_MONOTONIC, TFD_CLOEXEC|TFD_NONBLOCK) = 8
+recvmsg(3, {msg_namelen=128}, 0)        = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "0 - 8087:8001(Bus1, device2)\n1 -"..., 3220 - 8087:8001(Bus1, device2)
+1 - 1D6B:0002(Bus1, device1)
+2 - 1D6B:0003(Bus3, device1)
+3 - 04F2:B45D(Bus2, device7)
+4 - 8087:0A2A(Bus2, device6)
+5 - 138A:0017(Bus2, device5)
+6 - 04F3:012D(Bus2, device4)
+7 - 1C4F:0034(Bus2, device3)
+8 - 3412:7856(Bus2, device2)
+9 - 1D6B:0002(Bus2, device1)
+Select a device whose index is: ) = 322
+fstat(0, {st_mode=S_IFCHR|0600, st_rdev=makedev(136, 0), ...}) = 0
+read(0, "8\n", 1024)                    = 2
+recvmsg(3, {msg_namelen=128}, 0)        = -1 EAGAIN (Resource temporarily unavailable)
+openat(AT_FDCWD, "/dev/bus/usb/002/002", O_RDWR|O_CLOEXEC) = 9
+ioctl(9, USBDEVFS_GET_CAPABILITIES, 0x55a06b5ad558) = 0
+timerfd_settime(8, TFD_TIMER_ABSTIME, {it_interval={tv_sec=0, tv_nsec=0}, it_value={tv_sec=17825, tv_nsec=772004000}}, NULL) = 0
+ioctl(9, USBDEVFS_SUBMITURB, 0x55a06b5c3980) = 0
+read(6, "\1", 1)                        = 1
+poll([{fd=6, events=POLLIN}, {fd=8, events=POLLIN}, {fd=9, events=POLLOUT}], 3, 60000) = 1 ([{fd=9, revents=POLLOUT}])
+ioctl(9, USBDEVFS_REAPURBNDELAY, 0x7fff668bbbe8) = 0
+timerfd_settime(8, 0, {it_interval={tv_sec=0, tv_nsec=0}, it_value={tv_sec=0, tv_nsec=0}}, NULL) = 0
+ioctl(9, USBDEVFS_REAPURBNDELAY, 0x7fff668bbbe8) = -1 EAGAIN (Resource temporarily unavailable)
+timerfd_settime(8, TFD_TIMER_ABSTIME, {it_interval={tv_sec=0, tv_nsec=0}, it_value={tv_sec=17825, tv_nsec=772853000}}, NULL) = 0
+ioctl(9, USBDEVFS_SUBMITURB, 0x55a06b5c3980) = 0
+poll([{fd=6, events=POLLIN}, {fd=8, events=POLLIN}, {fd=9, events=POLLOUT}], 3, 60000) = 1 ([{fd=9, revents=POLLOUT}])
+ioctl(9, USBDEVFS_REAPURBNDELAY, 0x7fff668bbbe8) = 0
+timerfd_settime(8, 0, {it_interval={tv_sec=0, tv_nsec=0}, it_value={tv_sec=0, tv_nsec=0}}, NULL) = 0
+ioctl(9, USBDEVFS_REAPURBNDELAY, 0x7fff668bbbe8) = -1 EAGAIN (Resource temporarily unavailable)
+timerfd_settime(8, TFD_TIMER_ABSTIME, {it_interval={tv_sec=0, tv_nsec=0}, it_value={tv_sec=17825, tv_nsec=773386000}}, NULL) = 0
+ioctl(9, USBDEVFS_SUBMITURB, 0x55a06b5c3980) = 0
+poll([{fd=6, events=POLLIN}, {fd=8, events=POLLIN}, {fd=9, events=POLLOUT}], 3, 60000) = 1 ([{fd=9, revents=POLLOUT}])
+ioctl(9, USBDEVFS_REAPURBNDELAY, 0x7fff668bbbe8) = 0
+timerfd_settime(8, 0, {it_interval={tv_sec=0, tv_nsec=0}, it_value={tv_sec=0, tv_nsec=0}}, NULL) = 0
+ioctl(9, USBDEVFS_REAPURBNDELAY, 0x7fff668bbbe8) = -1 EAGAIN (Resource temporarily unavailable)
+timerfd_settime(8, TFD_TIMER_ABSTIME, {it_interval={tv_sec=0, tv_nsec=0}, it_value={tv_sec=17825, tv_nsec=773903000}}, NULL) = 0
+ioctl(9, USBDEVFS_SUBMITURB, 0x55a06b5c3980) = 0
+poll([{fd=6, events=POLLIN}, {fd=8, events=POLLIN}, {fd=9, events=POLLOUT}], 3, 60000) = 1 ([{fd=9, revents=POLLOUT}])
+ioctl(9, USBDEVFS_REAPURBNDELAY, 0x7fff668bbbe8) = 0
+timerfd_settime(8, 0, {it_interval={tv_sec=0, tv_nsec=0}, it_value={tv_sec=0, tv_nsec=0}}, NULL) = 0
+ioctl(9, USBDEVFS_REAPURBNDELAY, 0x7fff668bbbe8) = -1 EAGAIN (Resource temporarily unavailable)
+write(1, "\n", 1
+)                       = 1
+write(1, "-Manufacturer: TCXMASTER v0.3.00"..., 35-Manufacturer: TCXMASTER v0.3.0000
+) = 35
+write(1, "-ProductID: CHAIN00\n", 20-ProductID: CHAIN00
+)   = 20
+write(1, "\n", 1
+)                       = 1
+write(1, "\n", 1
+)                       = 1
+write(1, "CONFIGURATION\n", 14CONFIGURATION
+)         = 14
+write(1, "\n", 1
+)                       = 1
+write(1, " wTotalLength: 46\n bNumInterface"..., 118 wTotalLength: 46
+ bNumInterfaces: 1
+ bConfigurationValue: 1
+ iConfiguration: 0
+ bmAttributes: 0xA0
+ MaxPower: 250mA
+
+) = 118
+write(1, "\tINTERFACE\n", 11	INTERFACE
+)           = 11
+write(1, "\n", 1
+)                       = 1
+write(1, "\t bInterfaceNumber: 0\n\t bAlterna"..., 152	 bInterfaceNumber: 0
+	 bAlternateSetting: 0
+	 bNumEndpoints: 4
+	 bInterfaceClass: 255
+	 bInterfaceSubClass: 0
+	 bInterfaceProtocol: 0
+	 iInterface: 0
+
+) = 152
+write(1, "\t\tENDPOINT\n", 11		ENDPOINT
+)          = 11
+write(1, "\n", 1
+)                       = 1
+write(1, "\t\t bEndpointAddress: 0x82\n\t\t bmA"..., 120		 bEndpointAddress: 0x82
+		 bmAttributes: 2
+		 wMaxPacketSize: 512
+		 bInterval: 0
+		 bRefresh: 0
+		 bSynchAddress: 0
+
+) = 120
+write(1, "\t\tENDPOINT\n", 11		ENDPOINT
+)          = 11
+write(1, "\n", 1
+)                       = 1
+write(1, "\t\t bEndpointAddress: 0x04\n\t\t bmA"..., 120		 bEndpointAddress: 0x04
+		 bmAttributes: 2
+		 wMaxPacketSize: 512
+		 bInterval: 0
+		 bRefresh: 0
+		 bSynchAddress: 0
+
+) = 120
+write(1, "\t\tENDPOINT\n", 11		ENDPOINT
+)          = 11
+write(1, "\n", 1
+)                       = 1
+write(1, "\t\t bEndpointAddress: 0x86\n\t\t bmA"..., 120		 bEndpointAddress: 0x86
+		 bmAttributes: 2
+		 wMaxPacketSize: 512
+		 bInterval: 0
+		 bRefresh: 0
+		 bSynchAddress: 0
+
+) = 120
+write(1, "\t\tENDPOINT\n", 11		ENDPOINT
+)          = 11
+write(1, "\n", 1
+)                       = 1
+ioctl(9, USBDEVFS_CLAIMINTERFACE, 0x7fff668bc224) = 0
+timerfd_settime(8, TFD_TIMER_ABSTIME, {it_interval={tv_sec=0, tv_nsec=0}, it_value={tv_sec=17825, tv_nsec=776574000}}, NULL) = 0
+ioctl(9, USBDEVFS_SUBMITURB, 0x55a06b5c3980) = 0
+poll([{fd=6, events=POLLIN}, {fd=8, events=POLLIN}, {fd=9, events=POLLOUT}], 3, 60000) = 1 ([{fd=9, revents=POLLOUT}])
+ioctl(9, USBDEVFS_REAPURBNDELAY, 0x7fff668bbff8) = 0
+timerfd_settime(8, 0, {it_interval={tv_sec=0, tv_nsec=0}, it_value={tv_sec=0, tv_nsec=0}}, NULL) = 0
+ioctl(9, USBDEVFS_REAPURBNDELAY, 0x7fff668bbff8) = -1 EAGAIN (Resource temporarily unavailable)
+ioctl(9, USBDEVFS_RELEASEINTERFACE, 0x7fff668bc214) = 0
+ioctl(9, USBDEVFS_CLAIMINTERFACE, 0x7fff668bc224) = 0
+timerfd_settime(8, TFD_TIMER_ABSTIME, {it_interval={tv_sec=0, tv_nsec=0}, it_value={tv_sec=17825, tv_nsec=777400000}}, NULL) = 0
+ioctl(9, USBDEVFS_SUBMITURB, 0x55a06b5c3980) = 0
+poll([{fd=6, events=POLLIN}, {fd=8, events=POLLIN}, {fd=9, events=POLLOUT}], 3, 60000) = 1 ([{fd=9, revents=POLLOUT}])
+ioctl(9, USBDEVFS_REAPURBNDELAY, 0x7fff668bbff8) = 0
+timerfd_settime(8, 0, {it_interval={tv_sec=0, tv_nsec=0}, it_value={tv_sec=0, tv_nsec=0}}, NULL) = 0
+ioctl(9, USBDEVFS_REAPURBNDELAY, 0x7fff668bbff8) = -1 EAGAIN (Resource temporarily unavailable)
+ioctl(9, USBDEVFS_RELEASEINTERFACE, 0x7fff668bc214) = 0
+write(7, "\1", 1)                       = 1
+close(6)                                = 0
+close(7)                                = 0
+close(8)                                = 0
+write(5, "\1", 1)                       = 1
+close(3)                                = 0
+close(4)                                = 0
+close(5)                                = 0
+write(1, "\t\t bEndpointAddress: 0x08\n\t\t bmA"..., 258		 bEndpointAddress: 0x08
+		 bmAttributes: 2
+		 wMaxPacketSize: 512
+		 bInterval: 0
+		 bRefresh: 0
+		 bSynchAddress: 0
+WRITE:
+Interface:0 Endpoint=0x08 Result=0 Transfered=2
+Message=
+09 80
+READ:
+Interface:0 Endpoint=0x08 Result=0 Transfered=2
+Message=
+09 80
+) = 258
+lseek(0, -1, SEEK_CUR)                  = -1 ESPIPE (Illegal seek)
+exit_group(0)                           = ?
++++ exited with 0 +++

@@ -1,0 +1,78 @@
+List of USB devices:
+0 - 8087:8001(Bus1, device2)
+1 - 1D6B:0002(Bus1, device1)
+2 - 1D6B:0003(Bus3, device1)
+3 - 04F2:B45D(Bus2, device7)
+4 - 8087:0A2A(Bus2, device6)
+5 - 138A:0017(Bus2, device5)
+6 - 04F3:012D(Bus2, device4)
+7 - 1C4F:0034(Bus2, device3)
+8 - 3412:7856(Bus2, device2)
+9 - 1D6B:0002(Bus2, device1)
+Select a device whose index is: 
+-Manufacturer: TCXMASTER v0.3.0000
+-ProductID: CHAIN00
+
+
+CONFIGURATION
+
+ wTotalLength: 46
+ bNumInterfaces: 1
+ bConfigurationValue: 1
+ iConfiguration: 0
+ bmAttributes: 0xA0
+ MaxPower: 250mA
+
+	INTERFACE
+
+	 bInterfaceNumber: 0
+	 bAlternateSetting: 0
+	 bNumEndpoints: 4
+	 bInterfaceClass: 255
+	 bInterfaceSubClass: 0
+	 bInterfaceProtocol: 0
+	 iInterface: 0
+
+		ENDPOINT
+
+		 bEndpointAddress: 0x82
+		 bmAttributes: 2
+		 wMaxPacketSize: 512
+		 bInterval: 0
+		 bRefresh: 0
+		 bSynchAddress: 0
+
+		ENDPOINT
+
+		 bEndpointAddress: 0x04
+		 bmAttributes: 2
+		 wMaxPacketSize: 512
+		 bInterval: 0
+		 bRefresh: 0
+		 bSynchAddress: 0
+
+		ENDPOINT
+
+		 bEndpointAddress: 0x86
+		 bmAttributes: 2
+		 wMaxPacketSize: 512
+		 bInterval: 0
+		 bRefresh: 0
+		 bSynchAddress: 0
+
+		ENDPOINT
+
+		 bEndpointAddress: 0x08
+		 bmAttributes: 2
+		 wMaxPacketSize: 512
+		 bInterval: 0
+		 bRefresh: 0
+		 bSynchAddress: 0
+WRITE:
+Interface:0 Endpoint=0x08 Result=0 Transfered=2
+Message=
+09 80
+READ:
+Interface:0 Endpoint=0x08 Result=0 Transfered=2
+Message=
+09 80
