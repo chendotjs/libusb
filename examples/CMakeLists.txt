@@ -8,3 +8,8 @@ add_executable(usb_pixelx usb_example.cc)
 target_link_libraries(usb_pixelx
   PRIVATE usb
 )
+
+add_executable(xusb xusb.c)
+target_link_libraries(xusb
+  PRIVATE usb
+)
